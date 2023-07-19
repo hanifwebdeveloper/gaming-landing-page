@@ -24,6 +24,20 @@
     border: none;
 }
 
+.description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+.section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    width: 100%;
+}
+
 /* nav styles */
 nav {
     display: flex;
@@ -59,6 +73,10 @@ nav ul li a {
     background: rgba(11, 2, 35, 0.10);
     padding: 16px 40px;
 }
+
+/* .fa-youtube-play {
+    background-color: red;
+} */
 
 /* nav style end */
 /* play section start */
@@ -115,12 +133,91 @@ nav ul li a {
     border: none;
 }
 
+/* play section end */
+.online-section {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.online-games {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+}
+
+.funny-game {
+    padding-left: 20px;
+    width: 300px;
+    height: 350px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
 /* Responsive Media query */
 /* Mobile Device */
 @media screen and (max-width:576px) {
 
     nav,
-    .logo-nav {
+    .logo-nav,
+    .online-games {
         flex-direction: column;
+    }
+
+    .play-container {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .play-img,
+    .funny-game {
+        width: 100%;
+    }
+
+    .funny-game {
+        height: 100%;
+    }
+
+    .play-content,
+    .online-section {
+        text-align: center;
+    }
+
+    .btn-primary {
+        margin-bottom: 15px;
+    }
+}
+
+/* tablet device */
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    nav,
+    .logo-nav,
+    .online-games {
+        flex-direction: column;
+    }
+
+    .play-container {
+        flex-direction: column-reverse;
+        padding: 20px;
+    }
+
+    .play-img,
+    .play-content,
+    .funny-game {
+        width: 100%;
+    }
+
+    .funny-game {
+        height: 100%;
+    }
+
+    .btn-primary {
+        margin-bottom: 15px;
+    }
+
+    .online-section {
+        text-align: center;
+        margin-bottom: 0;
     }
 }
