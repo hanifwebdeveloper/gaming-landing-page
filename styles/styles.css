@@ -155,8 +155,7 @@ nav ul li a {
 }
 
 /* play section end */
-/* play instantly section */
-
+/* play instantly section start*/
 
 .play-instant {
     margin-top: 200px;
@@ -188,6 +187,39 @@ nav ul li a {
     flex-shrink: 0;
     top: 380px;
     right: 130px;
+}
+
+/* play instantle end */
+/* Action game section start */
+.action-container {
+    margin-top: 450px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.action-game {
+    flex-basis: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.action-game:hover {
+    color: #F948B2;
+}
+
+.single-game img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.single-game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Responsive Media query */
