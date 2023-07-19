@@ -222,6 +222,49 @@ nav ul li a {
     align-items: center;
 }
 
+/* footer section style */
+footer {
+    background: #0B0223;
+}
+
+.footer-nav {
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    color: #FFF;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul li {
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.icons-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto 40px;
+    color: #FFF;
+    padding: 20px 35px;
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+}
+
 /* Responsive Media query */
 /* Mobile Device */
 @media screen and (max-width: 576px) {
@@ -229,7 +272,8 @@ nav ul li a {
     nav,
     .logo-nav,
     .online-games,
-    .play-instant {
+    .play-instant,
+    footer ul {
         flex-direction: column;
     }
 
@@ -279,7 +323,8 @@ nav ul li a {
     nav,
     .logo-nav,
     .online-games,
-    .play-instant {
+    .play-instant,
+    footer ul {
         flex-direction: column;
     }
 
