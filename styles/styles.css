@@ -237,6 +237,8 @@ footer {
 
 footer ul {
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
     gap: 60px;
 }
