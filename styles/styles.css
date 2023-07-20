@@ -74,9 +74,10 @@ nav ul li a {
     padding: 16px 40px;
 }
 
-/* .fa-youtube-play {
-    background-color: red;
-} */
+.fa-youtube {
+    background-color: white;
+    color: red
+}
 
 /* nav style end */
 /* play section start */
@@ -154,6 +155,24 @@ nav ul li a {
     margin-bottom: 20px;
 }
 
+.funny img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FFF;
+    position: relative;
+    bottom: 260px;
+    left: 160px;
+}
+
+.funny img:hover {
+    background-color: #0B0223;
+}
+
+.funny {
+    position: absolute;
+}
+
 /* play section end */
 /* play instantly section start*/
 
@@ -190,7 +209,7 @@ nav ul li a {
     right: 130px;
 }
 
-/* play instantle end */
+/* play instantly end */
 /* Action game section start */
 .action-container {
     margin-top: 450px;
@@ -208,7 +227,7 @@ nav ul li a {
 }
 
 .action-game:hover {
-    color: #F948B2;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 
 .single-game img {
