@@ -26,7 +26,7 @@
 
 .description {
     color: #534C64;
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 500;
     line-height: 30px;
     /* 150% */
@@ -265,55 +265,69 @@ footer p {
     text-align: center;
 }
 
+.hide {
+    display: none;
+}
+
 /* Responsive Media query */
 /* Mobile Device */
 @media screen and (max-width: 576px) {
 
+    /* .play-instant,
+    footer ul, */
     nav,
-    .logo-nav,
-    .online-games,
-    .play-instant,
-    footer ul {
+    nav>ul,
+    .online-games {
         flex-direction: column;
+    }
+
+    .online-games {
+        text-align: center;
     }
 
     .play-container {
         flex-direction: column-reverse;
-        padding: 20px;
     }
 
-    .play-img {
-        width: 50%;
-    }
-
-    .section-title,
-    .play-instantly {
+    .play-img img {
         width: 100%;
-        height: 100%;
-        text-align: center;
     }
 
-    .play-instantly-img img {
-        width: 90%;
-        margin-left: 0;
+    .play-content {
+        text-align: center;
+        padding-left: 0;
     }
 
     .funny-game {
+        padding-left: 0px;
+        margin-bottom: 20px;
         width: 100%;
-        padding: 20px;
-    }
-
-    .funny-game {
         height: 100%;
     }
 
-    .play-content,
-    .online-section {
-        text-align: center;
+    .section-title {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+
+    .play-title {
+        font-size: 2rem;
+    }
+
+    .play-content-title {
+        font-size: 4rem;
     }
 
     .btn-primary {
-        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+
+    .btn-secondary {
+        font-size: 1rem;
     }
 }
 
@@ -321,41 +335,24 @@ footer p {
 @media screen and (min-width:577px) and (max-width:992px) {
 
     nav,
-    .logo-nav,
-    .online-games,
-    .play-instant,
-    footer ul {
+    nav>ul,
+    .online-games {
         flex-direction: column;
     }
 
     .play-container {
         flex-direction: column-reverse;
-        padding: 20px;
     }
 
-    .play-img,
-    .play-content,
-    .funny-game {
-        width: 100%;
+    .play-img img {
+        width: 70%;
     }
 
     .funny-game {
-        height: 100%;
-    }
-
-    .btn-primary {
-        margin-bottom: 15px;
-    }
-
-    .online-section {
-        text-align: center;
-        margin-bottom: 0;
-    }
-
-    .play-instantly {
+        padding-left: 170px;
+        margin-bottom: 20px;
         width: 100%;
         height: 100%;
-        text-align: center;
+        align-items: center;
     }
-
 }
