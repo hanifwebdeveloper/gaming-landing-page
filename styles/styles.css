@@ -237,7 +237,8 @@ footer {
 
 footer ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 60px;
 }
 
 footer ul li {
@@ -254,8 +255,9 @@ footer ul li a {
 .icons-container {
     margin-bottom: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 60%;
+    gap: 30px;
     margin: 0 auto 40px;
     color: #FFF;
     padding: 20px 35px;
@@ -264,10 +266,6 @@ footer ul li a {
 footer p {
     color: #FFF;
     text-align: center;
-}
-
-.hide {
-    display: none;
 }
 
 /* Responsive Media query */
